@@ -1,0 +1,11 @@
+.active{
+	@apply bg-gray-500;
+}
+
+.toggle{
+	@apply block absolute bg-gray-500/50 backdrop-blur-lg z-50 top-8 p-3 rounded-md text-white lg:top-10 lg:p-5;
+}
+
+textarea{
+	font-family: 'fixed-width';
+}

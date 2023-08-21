@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import 'codemirror/theme/3024-day';
+@import 'codemirror/theme/3024-night';
+@import 'codemirror/theme/abbott';
+@import 'codemirror/theme/abcdef';
+@import 'codemirror/theme/ambiance';
+@import 'codemirror/theme/ambiance-mobile';
+@import 'codemirror/theme/ayu-dark';
+@import 'codemirror/theme/ayu-mirage';
+@import 'codemirror/theme/base16-dark';
+@import 'codemirror/theme/base16-light';
+@import 'codemirror/theme/bespin';
+@import 'codemirror/theme/blackboard';
+@import 'codemirror/theme/cobalt';
+@import 'codemirror/theme/colorforth';
+@import 'codemirror/theme/darcula';
+@import 'codemirror/theme/dracula';
+@import 'codemirror/theme/duotone-dark';
+@import 'codemirror/theme/duotone-light';
+@import 'codemirror/theme/eclipse';
+@import 'codemirror/theme/elegant';
+@import 'codemirror/theme/erlang-dark';
+@import 'codemirror/theme/gruvbox-dark';
+@import 'codemirror/theme/hopscotch';
+@import 'codemirror/theme/icecoder';
+@import 'codemirror/theme/idea';
+@import 'codemirror/theme/isotope';
+@import 'codemirror/theme/juejin';
+@import 'codemirror/theme/lesser-dark';
+@import 'codemirror/theme/liquibyte';
+@import 'codemirror/theme/lucario';
+@import 'codemirror/theme/material';
+@import 'codemirror/theme/material-darker';
+@import 'codemirror/theme/material-ocean';
+@import 'codemirror/theme/material-palenight';
+@import 'codemirror/theme/mbo';
+@import 'codemirror/theme/mdn-like';
+@import 'codemirror/theme/midnight';
+@import 'codemirror/theme/monokai';
+@import 'codemirror/theme/moxer';
+@import 'codemirror/theme/neat';
+@import 'codemirror/theme/neo';
+@import 'codemirror/theme/night';
+@import 'codemirror/theme/nord';
+@import 'codemirror/theme/oceanic-next';
+@import 'codemirror/theme/panda-syntax';
+@import 'codemirror/theme/paraiso-dark';
+@import 'codemirror/theme/paraiso-light';
+@import 'codemirror/theme/pastel-on-dark';
+@import 'codemirror/theme/railscasts';
+@import 'codemirror/theme/rubyblue';
+@import 'codemirror/theme/seti';
+@import 'codemirror/theme/shadowfox';
+@import 'codemirror/theme/solarized';
+@import 'codemirror/theme/ssms';
+@import 'codemirror/theme/the-matrix';
+@import 'codemirror/theme/tomorrow-night-bright';
+@import 'codemirror/theme/tomorrow-night-eighties';
+@import 'codemirror/theme/ttcn';
+@import 'codemirror/theme/twilight';
+@import 'codemirror/theme/vibrant-ink';
+@import 'codemirror/theme/xq-dark';
+@import 'codemirror/theme/xq-light';
+@import 'codemirror/theme/yeti';
+@import 'codemirror/theme/yonce';
+@import 'codemirror/theme/zenburn';
+
+@import "codemirror/addon/hint/show-hint.css";
+@import "codemirror/addon/lint/lint.css";
+@import "codemirror/addon/dialog/dialog.css";
+@import "codemirror/addon/search/matchesonscrollbar.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide the default scrollbar */
+*::-webkit-scrollbar {
+  width: 9px;
+	height: 0;
+}
+
+/* Add a custom scrollbar track */
+*::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+/* Add a custom scrollbar thumb */
+*::-webkit-scrollbar-thumb {
+  background-color: #98999c;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #6f7173;
+  border-radius: 20px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif, monospace;
+}
