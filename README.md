@@ -1,10 +1,10 @@
 # CodeMirror
 
 ## Desktop
-<img src="./screenshot/desktop.png" />
+<img src="./screenshot/new-desktop.png" />
 
 ## Mobile
-<img src="./screenshot/mobile.png" />
+<img src="./screenshot/new-mobile.png" />
 
 ***
 
