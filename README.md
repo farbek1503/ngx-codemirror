@@ -1,9 +1,9 @@
-# CodeMirror
+# CodeMirror [Link](https://ngx-codemirror-bek.vercel.app/)
 
-## Desktop
+## Desktop 💻
 <img src="./screenshot/new-desktop.png" />
 
-## Mobile
+## Mobile 📱
 <img src="./screenshot/new-mobile.png" />
 
 ***
@@ -95,8 +95,9 @@ gutters: ["CodeMirror-lint-markers"],
 lint: true,
 matchTags: { bothTags: true },
 ```
+***
 
-**Menu**
+### Menu
 
 <img src="./screenshot/menu.png" />
 
